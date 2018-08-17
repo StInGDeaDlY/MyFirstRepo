@@ -1,2 +1,2 @@
-puts "Hello, Murugeshpalya. 
-Here is my first arguement #{ARGV.first}!"
+name = ARGV.first || "World"
+puts "Hello, #{name}! you asshole."
